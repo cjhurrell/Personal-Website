@@ -60,3 +60,15 @@ h1{
     text-decoration: underline;
 }
 
+@media (max-width: 600px) {
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .pages {
+    width: 80px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
