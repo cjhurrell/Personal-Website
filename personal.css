@@ -43,6 +43,11 @@ p{
 
 .keep-reading{
     background-color: lavender;
+    max-width: 100px;
+    margin: 0 auto;
+    border: 2px sold white;
+    height: 15px;
+
 }
 
 footer{
@@ -51,9 +56,22 @@ footer{
     text-align: center;
     padding: 5px;
 }
+.social{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border: 2px;
+    border-radius: 0%;
+}
+
+.social:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
 
 .footer-text{
     color: white;
+    margin: 5px;
 }
 
 .email{
@@ -72,6 +90,12 @@ button:hover{
 
 h1{
     text-decoration: underline;
+}
+
+.home p{
+    box-shadow: #1a2a40 0px 0px 10px;
+    border: 2px solid black;
+    max-width: 50px;
 }
 
 @media (max-width: 600px) {
