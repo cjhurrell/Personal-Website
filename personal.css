@@ -13,11 +13,10 @@ img{
 
 a{
     text-decoration: none;
-    align-self: center;
+   
 }
 
-.card-container{
-    align-items: center;
+
 }
 
 h2{
@@ -97,8 +96,6 @@ h1{
     padding: 20px;
     margin: 20px;
     text-decoration: none;
-    max-width: 300px;
-    align-self: center;
 }
 
 .card:hover{
