@@ -15,6 +15,10 @@ a{
     text-decoration: none;
 }
 
+h2{
+    color: black;
+}
+
 p{
     margin: 20px;
     font-family: garamond;
