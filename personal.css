@@ -16,6 +16,10 @@ a{
     align-self: center;
 }
 
+.card-container{
+    align-items: center;
+}
+
 h2{
     color: black;
 }
