@@ -92,6 +92,7 @@ h1{
     padding: 20px;
     margin: 20px;
     text-decoration: none;
+    max-width: 100px;
 }
 
 .card:hover{
