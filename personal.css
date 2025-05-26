@@ -11,6 +11,10 @@ img{
     border: 5px solid grey;
 }
 
+a{
+    text-decoration: none;
+}
+
 p{
     margin: 20px;
     font-family: garamond;
