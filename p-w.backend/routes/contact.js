@@ -1,14 +1,12 @@
-
-
 const express = require('express');
 const router = express.Router();
-const db = require('../config/DB');
+const db = require('../config/db');
 
 router.post('/', (req, res) => {
-    const { name, email, message } = req.body;
+  const { name, email, message } = req.body;
 
   if (!name || !email || !message) {
-    return res.status(400).json({ error: 'All fields are required' });
+    return res.status(400).json({ error: 'All fields are required.' });
   }
 
   const query = 'INSERT INTO contact_messages (name, email, message) VALUES (?, ?, ?)';
@@ -17,8 +15,9 @@ router.post('/', (req, res) => {
       console.error('DB insert error:', err);
       return res.status(500).json({ error: 'Database error' });
     }
-    res.status(200).json({ message: 'Message recived', id: results.insertId });
+    res.status(200).json({ message: 'Message received!' });
   });
 });
 
 module.exports = router;
+
