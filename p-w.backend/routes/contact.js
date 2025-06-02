@@ -11,7 +11,7 @@ router.post('/', (req, res) => {
     return res.status(400).json({ error: 'All fields are required' });
   }
 
-  const query = 'INSERT INTO contacts (name, email, message) VALUES (?, ?, ?)';
+  const query = 'INSERT INTO contact_messages (name, email, message) VALUES (?, ?, ?)';
   db.query(query, [name, email, message], (err, results) => {
     if (err) {
       console.error('DB insert error:', err);
