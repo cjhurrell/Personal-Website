@@ -200,3 +200,25 @@ h1{
   color: white;
   z-index: 1002;
 }
+
+form label{
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form input{
+    border-radius: 2rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: lavender;
+    box-shadow: #1a2a40 0px 0px 5px;
+}
+
+form textarea{
+    border-radius: 2rem;
+    background-color: lavender;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: #1a2a40 0px 0px 5px;
+}
