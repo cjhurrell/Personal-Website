@@ -5,6 +5,8 @@ const db = require('../config/db');
 router.post('/', (req, res) => {
   const { name, email, message } = req.body;
 
+  console.log('Received contact form submission:', { name, email, message });
+
   if (!name || !email || !message) {
     return res.status(400).json({ error: 'All fields are required.' });
   }
