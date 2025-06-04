@@ -1,0 +1,15 @@
+{
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "commands": {
+      "build": "echo nothing to build"
+    }
+  },
+  "deploy": {
+    "startCommand": "npm start",
+    "installCommand": "npm install",
+    "workdir": "p-w.backend"
+  }
+}
