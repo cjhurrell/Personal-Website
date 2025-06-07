@@ -1,24 +1,31 @@
 # Christopher Hurrell Personal-Website
 
-Welcome to my personal website and online resume (it's not much but i've started) This site is what i hope to use as a projection of what i've learned, and everything I wish to achive.
+Welcome to my personal website and online resume. This site is what i hope to use as a projection of what i've learned, and everything I wish to achive.
 
 site: https://github.com/cjhurrell/Personal-Website 
 
 
-My resume is designed to be slick, clean, fresh, and eye opening on initial design. It includes:
+My resume (the website) is designed to be slick, clean, fresh, and eye opening on initial design. It includes:
 -An about me!
 -How i found myself here
 -Why im doing this
 -Skills and experience
 -A downloadable resume (to come)
--How to connect through appropriate socials or e-mail (currently building)
+-How to connect through appropriate socials or e-mail built into the footer of every page.
+-Contacts page with a form to take some details and a message, this is connected to a database to collect and store this data.
+
+
 
 
 Built with:
 -HTML5
 -CSS
 -JavaScript
--(currently building up backend)
+-railway
+-MySQL
+-express
+-node.js
+-Docker
 
 
 
