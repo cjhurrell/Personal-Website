@@ -8,7 +8,7 @@ html, body {
   margin: 0;
 }
 
-img{
+.profile-pic{
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -272,3 +272,34 @@ form button {
   font-weight: bold;
 }
 
+.project {
+    background-color: #f0f8ff;
+    border: 2px solid #1a2a40;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 100px;
+    height: 100px;
+    box-shadow: #1a2a40 0px 0px 10px;
+    padding: 20px;
+    margin: 20px;
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.project:hover {
+    box-shadow: #1a2a40 0px 0px 20px;
+    transform: scale(1.05);
+}
+
+.project-row {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-image {
+    width: 60%;
+    height: 60%;
+    border-radius: 3px;
+}
