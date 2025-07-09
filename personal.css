@@ -272,15 +272,24 @@ form button {
   font-weight: bold;
 }
 
+.border {
+    background-color: #1a2a40;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 150px;
+    height: 150px;
+    padding: 2px;
+    margin: 2px;
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
 .project {
     background-color: #f0f8ff;
-    border: 2px solid #1a2a40;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    width: 100px;
-    height: 100px;
+    width: 145px;
+    height: 145px;
+    padding: 3px;
     box-shadow: #1a2a40 0px 0px 10px;
-    padding: 20px;
-    margin: 20px;
     text-decoration: none;
     transition: transform 0.3s, box-shadow 0.3s;
 
@@ -299,7 +308,7 @@ form button {
 }
 
 .project-image {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     border-radius: 3px;
 }
