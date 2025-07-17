@@ -37,6 +37,11 @@ p{
     color: white;
     padding: 2px;
     text-align: right;
+    
+}
+
+#nav-options{
+    position: fixed;
 }
 
 .pages{
