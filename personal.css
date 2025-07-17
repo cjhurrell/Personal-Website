@@ -42,6 +42,7 @@ p{
 
 #nav-options{
     position: fixed;
+    z-index: 9999;
 }
 
 .pages{
