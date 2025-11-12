@@ -118,6 +118,15 @@ button:hover{
     background-color: lightgreen;
 }
 
+.download-button{
+    background-color: orange;
+    color: darkgreen;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
 h1{
     text-decoration: underline;
 }
